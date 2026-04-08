@@ -14,7 +14,7 @@ gffread duck.merged.agat.region.final.gff3 \
 # Search protein sequences against the curated UniProt/Swiss-Prot database
 # to obtain high-confidence functional annotations
 diamond blastp \
-  -d /data/huruisi_data/DataBase/uniprot_sprot.dmnd \
+  -d /path/to/uniprot_sprot.dmnd \
   -q duck.protein_coding.pep.fa \
   -o Duck_protein_vs_sprot.tsv \
   -e 1e-5 \
@@ -27,7 +27,7 @@ diamond blastp \
 # Search protein sequences against the NR database
 # to obtain broad homology-based functional information
 diamond blastp \
-  -d /home/data/luoxuan513/database/nr_db/nr_diamond.dmnd \
+  -d /path/to/nr_diamond.dmnd \
   -q duck.protein_coding.pep.fa \
   -o Duck_protein_vs_nr.tsv \
   -e 1e-5 \
@@ -43,14 +43,14 @@ emapper.py \
   --cpu 45 \
   -i ./duck.protein_coding.pep.fa \
   --output duck_emapper \
-  --data_dir /home/data/luoxuan513/huruisi/eggnog_data \
+  --data_dir /path/to/eggnog_data \
   --override
 
 # 5. InterProScan domain annotation
 
 # Annotate conserved domains, protein families, motifs, and signatures
 # using InterProScan
-/home/huruisi/MyData/02.databases/interproscan/interproscan-5.73-104.0/interproscan.sh \
+/path/to/interproscan-5.73-104.0/interproscan.sh \
   -i duck.protein_coding.pep.fa \
   -t p \
   -cpu 70 \
