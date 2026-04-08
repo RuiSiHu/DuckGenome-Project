@@ -4,7 +4,7 @@ A reproducible shell-based workflow for duck genome analysis, including:
 
 - de novo genome assembly with HiFi / ONT / hybrid reads
 - haplotig or duplicated contig purging
-- dual polishing with HiFi and Illumina reads
+- dual polishing with HiFi and NGS reads
 - Hi-C scaffolding with YaHS and Juicebox-compatible output generation
 - genome post-processing and quality assessment
 - protein-coding gene annotation
