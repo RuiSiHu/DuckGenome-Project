@@ -98,7 +98,7 @@ for entry in "${SAMPLES[@]}"; do
     echo "  Skip: ${SAMPLE}.purged.fasta exists"
   fi
 
-  echo "✔ Done: $SAMPLE"
+  echo "Done: $SAMPLE"
   echo "-----------------------------"
 done
 
