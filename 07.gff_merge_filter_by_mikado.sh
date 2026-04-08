@@ -121,7 +121,3 @@ sed 's/^alias=//' | \
 cut -d'_' -f1 | \
 sort | uniq -c
 
-# 11. Extract mikado.loci.gff3 into a standard protein-coding gene set
-# The gene set can be used for gffread, BUSCO, and gene symbol assignment.
-python extract_protein_coding_from_mikado_gff3.py mikado.loci.gff3 mikado.protein_coding.gff3
-
