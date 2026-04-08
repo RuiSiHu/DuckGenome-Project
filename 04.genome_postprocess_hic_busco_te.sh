@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Duck Genome Post-processing Pipeline
-#Here provides a streamlined set of commonds for genome refinement after assembly, including:
+# Here provides a streamlined set of commonds for genome refinement after assembly, including:
 
 # - Hi-C manual curation using Juicer Tools
 # - Assembly quality evaluation using BUSCO 
