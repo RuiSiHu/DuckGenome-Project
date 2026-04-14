@@ -2,7 +2,7 @@
 
 A reproducible shell-based workflow for duck genome analysis, including:
 
-- de novo genome assembly with HiFi / ONT / hybrid reads
+- de novo genome assembly with ONT / HiFi / hybrid reads
 - haplotig or duplicated contig purging
 - dual polishing with HiFi and NGS reads
 - Hi-C scaffolding with YaHS and Juicebox-compatible output generation
@@ -12,6 +12,7 @@ A reproducible shell-based workflow for duck genome analysis, including:
 - small non-coding RNA annotation
 - gene functional annotation by BLASTP to UniProt and NR databases, and using eggNOG-mapper and InterProscan
 - graph pangenome construction using Minigraph-Cactus
+- variation statistics
 
 This repository was organized for chromosome-level or T2T duck genome assembly and downstream genome annotation.
 
@@ -96,5 +97,8 @@ This repository contains a full genome analysis workflow built from modular shel
 10.function_annotation.sh
   └── extract protein sequences for downstream gene functional annotation
 
-12.graph_pangenome_MC_pipeline.sh
-  └── graph pangenome construction using Minigraph-Cactus
+11.graph_pangenome_MC_pipeline.sh
+  └── graph pangenome construction using Minigraph-Cactus pipeline
+
+12.MC_vcf_variant_summary.sh
+  └── variation summary based on the vcf file
