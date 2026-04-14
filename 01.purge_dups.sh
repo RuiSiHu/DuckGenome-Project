@@ -5,7 +5,7 @@ set -euo pipefail
 # purge_dups HiFi-based deduplication pipeline
 #
 # Usage:
-#   run_purge_dups.sh -i FASTA_DIR -o OUTDIR \
+#   bash 01.purge_dups.sh -i FASTA_DIR -o OUTDIR \
 #     -s sample1:hifi1.fq.gz [-s sample2:hifi2.fq.gz ...] \
 #     [-e conda_env]
 ###############################################################################
