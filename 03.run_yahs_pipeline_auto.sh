@@ -17,7 +17,7 @@ set -euo pipefail
 #   All outputs are saved to the directory where this script resides.
 #
 # Usage:
-#   bash run_yahs_juicer_auto.sh \
+#   bash 03.run_yahs_pipeline_auto.sh \
 #     -t 48 -e GATC -j /path/to/juicer_tools.jar \
 #     -s D1:/path/D1.fa:/path/D1_R1.fq.gz:/path/D1_R2.fq.gz \
 #     -s D3:/path/D3.fa:/path/D3_R1.fq.gz:/path/D3_R2.fq.gz
