@@ -1,6 +1,6 @@
 # Kaijiang Duck Genome Assembly, Annotation and Graph Pangenome Pipeline
 
-A reproducible shell-based workflow for duck genome analysis, including:
+A reproducible workflow for duck genome analysis, including:
 
 - de novo genome assembly with ONT / HiFi / hybrid reads
 - haplotig or duplicated contig purging
