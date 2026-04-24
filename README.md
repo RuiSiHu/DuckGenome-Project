@@ -100,5 +100,5 @@ This repository contains a full genome analysis workflow built from modular shel
 11.graph_pangenome_MC_pipeline.sh
   └── graph pangenome construction using Minigraph-Cactus pipeline
 
-12.MC_vcf_variant_summary.sh
+12.MC_vcf_variant_summary.py
   └── variation summary based on the vcf file
